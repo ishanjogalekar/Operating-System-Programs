@@ -5,7 +5,7 @@
 
 int main() 
 { 
-    printf("\n19BCE2250 Ishan Jogalekar");
+    
 	if (fork()== 0) 
 		printf("\nThis is child Process."); 
 	else
