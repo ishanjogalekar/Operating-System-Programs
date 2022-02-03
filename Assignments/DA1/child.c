@@ -12,7 +12,7 @@ int a,b,c,d[2];
  c=fork(); 
    if(c==0)    
     {      
-      printf("Ishan Jogalekar - 19BCE2250");
+      
       printf("\nEnter No (Parent process) :\n");    
       scanf("%d",&a);    
       close(d[0]);      
