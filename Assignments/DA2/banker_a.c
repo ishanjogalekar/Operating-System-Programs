@@ -8,7 +8,7 @@ int counter = 0, i, j, exec, resources, processes, k = 1;
 int main()
 {
     
-	printf("\nEnter totla no. of processes: ");
+	printf("\nEnter total no. of processes: ");
     scanf("%d", &processes);
 	for (i = 0; i < processes; i++) 
 	{
