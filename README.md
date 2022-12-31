@@ -1,10 +1,10 @@
 # Operating-System-Programs
 ## OS Lab Programs 
-*Note: Run programs in linux env*
+*Note: Run programs in linux environment usinf WSL or Virtual Machine or Bare matel device*
 
 ---
 
-### Assignments 
+## Assignments 
 **Assignment 1**  </br> 
 [**PDF**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA1/19BCE2250_LAB%20DA%201.pdf) </br>
 1. Parent child process creation using fork( ) and exec() system call  </br>
@@ -65,4 +65,28 @@ wait for the child process to complete before exiting the program. </br>
 
 ---
 
-**This is under development repository**
+**Assignment 4 - Memory Managment & Disk Managment** </br>
+[**PDF**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/19BCE2250%20DA%204%20.pdf) </br>
+1. Consider a memory hole of size 1kb initially. When a sequence of memory request arrives as following, illustrate the memory allocation by various approaches and calculate the total amount memory wasted by external fragmentation and internal fragmentation in each approach. a.First Fit b. Best Fit c.Worst Fit </br>
+->[**Code**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/1.cpp) </br>
+2. Write a program to implement the page replacement algorithms. 
+- [**FIFO**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/FIFO.c) </br>
+- [**LRU**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/LRU.c) </br>
+- [**OPT**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/OPT.c) </br>
+
+3. Write a program that implements the FIFO, LRU, and Optimal page replacement algorithms. First, generate a random page-reference 
+string where page numbers range from 0 to 9. Apply the random page reference string to each algorithm, and record the number of page faults incurred by each algorithm. Implement the replacement algorithms so that the number of page frames can vary from 1 to 7. Assume that demand paging is used. </br>
+- [**FIFO**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/FIFO2.cpp) </br>
+- [**LRU**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/LRU2.cpp) </br>
+- [**OPT**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/OPT2.cpp) </br>
+
+4. Implement the following Disk scheduling algorithms: </br>
+- [**SSTF**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/SSTF.c) </br>
+- [**SCAN**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/SCAN.c) </br>
+- [**C-SCAN**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/CSCAN.cpp) </br>
+- [**FCFS**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/FCFS.c) </br>
+
+5. Consider a file of size 1 MB. The size of a disk block is 512Bytes. Assume any number of available free blocks in the disk contiguously or non-contiguously. Implement the following algorithms to perform file allocation. Determine the efficiency of each file allocation strategies. </br>
+- [**Sequential**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/sequential.c) </br>
+- [**Indexed**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/index.c) </br>
+- [**Linked**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA4/Linked.c) </br>
