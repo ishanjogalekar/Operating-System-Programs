@@ -49,9 +49,20 @@ wait for the child process to complete before exiting the program. </br>
 
 **Assignment 3** </br>
 [**PDF**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA3/19BCE2250%20Assignment%203%20.pdf) </br>
-1.Implement the solution for reader – writer’s problem. </br>
+1. Implement the solution for reader – writer’s problem. </br>
 ->[**Code**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA3/1.c) </br>
-
+2. Implement the solution for dining philosopher’s problem. </br>
+->[**Code**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA3/2.c) </br>
+3. Implement the solution for producer consumer problem. </br>
+->[**Code**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA3/3.c) </br>
+4. The analogy is based upon a hypothetical barber shop with one barber. There is a barber shop which has one barber, one barber chair, and n chairs for waiting for customers if there are any to sit on the chair. </br>
+- If there is no customer, then the barber sleeps in his own chair. 
+- When a customer arrives, he has to wake up the barber. 
+- If there are many customers and the barber is cutting a customer’s hair, then the remaining customers either wait if there are empty chairs in the waiting room or they leave if no chairs are empty. </br>
+->[**Code**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA3/4.c) </br>
+5. A pair of processes involved in exchanging a sequence of integers. The number of integers that can be produced and consumed at a time is limited to 100. Write a Program to implement the producer and consumer problem using POSIX semaphore for the above scenario. </br>
+->[**Code**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA3/5.c) </br>
 
 ---
+
 **This is under development repository**
