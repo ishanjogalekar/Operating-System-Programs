@@ -47,4 +47,11 @@ wait for the child process to complete before exiting the program. </br>
 
 ---
 
+**Assignment 3** </br>
+[**PDF**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA3/19BCE2250%20Assignment%203%20.pdf) </br>
+1.Implement the solution for reader – writer’s problem. </br>
+->[**Code**](https://github.com/ishanjogalekar/Operating-System-Programs/blob/main/Assignments/DA3/1.c) </br>
+
+
+---
 **This is under development repository**
